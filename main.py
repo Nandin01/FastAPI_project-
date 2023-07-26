@@ -5,13 +5,13 @@ from mongoengine import connect
 import json
 
 app = FastAPI()
-connect(db="Cern", host="localhost", port=27023)
+connect(db="C", host="localhost", port=)
 
 
 #Get all data
 @app.get("/")
 def index():
-    return {"message": "CERN hehe"}
+    return {"message": "C hehe"}
 
 @app.get("/get_all_rundb")
 def get_all_rundb():
