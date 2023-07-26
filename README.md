@@ -1,2 +1,2 @@
-# FastAPI_project-
+# FastAPI
 FastAPI template for web based back-end development
